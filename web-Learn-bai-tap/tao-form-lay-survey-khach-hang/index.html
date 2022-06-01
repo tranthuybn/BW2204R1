@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tạo form lấy survey khách hàng</title>
+    <style>
+        .rating td{
+            text-align: center;
+        }
+        .rating th{
+            min-width: 100px;
+        }
+        .rating tr:nth-child(odd){
+            background-color: #ccc
+        }
+    </style>
 </head>
 <body>
     <h2>Market Research Survey</h2>
@@ -79,6 +90,80 @@
                 <td><sup>Cents</sup></td>
             </tr>
         </table>
+        <!-- ================================== -->
+        <p><label for=""><b>What features would you like to use in new product</b></label></p>
+        <textarea style="width: 100%" name="" id="" cols="100" rows="10"></textarea>
+        <p>Please rate your level of agreement width the following statement.</p>
+        <table cellspacing="0" border="1px" class="rating" >
+            <tr>
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
+            </tr>
+            <tr>
+                <td style="text-align: left"><b>Our products are prices fairly</b></td>
+                <td>
+                    <input type="radio" name="pf"> <br>
+                    <label for="">1</label>
+                </td>
+                <td>
+                    <input type="radio" name="pf"> <br>
+                    <label for="">2</label>
+                </td>
+                <td>
+                    <input type="radio" name="pf"> <br>
+                    <label for="">3</label>
+                </td>
+                <td>
+                    <input type="radio" name="pf"> <br>
+                    <label for="">4</label>
+                </td>   
+            </tr>
+            <tr>
+                <td style="text-align: left"><b>Our products are high quality</b></td>
+                <td>
+                    <input type="radio" name="hq"> <br>
+                    <label for="">1</label>
+                </td>
+                <td>
+                    <input type="radio" name="hq"> <br>
+                    <label for="">2</label>
+                </td>
+                <td>
+                    <input type="radio" name="hq"> <br>
+                    <label for="">3</label>
+                </td>
+                <td>
+                    <input type="radio" name="hq"> <br>
+                    <label for="">4</label>
+                </td>  
+            </tr>
+            <tr>
+                <td style="text-align: left"><b>You would recommend our product to a friend or coworker</b></td>
+                <td>
+                    <input type="radio" name="re"> <br>
+                    <label for="">1</label>
+                </td>
+                <td>
+                    <input type="radio" name="re"> <br>
+                    <label for="">2</label>
+                </td>
+                <td>
+                    <input type="radio" name="re"> <br>
+                    <label for="">3</label>
+                </td>
+                <td>
+                    <input type="radio" name="re"> <br>
+                    <label for="">4</label>
+                </td>  
+            </tr>
+        </table>
+        <button style="margin-top:10px" type="submit"><h2 style="margin:0">Submit</h2></button>
+
+
+
 
 
 
