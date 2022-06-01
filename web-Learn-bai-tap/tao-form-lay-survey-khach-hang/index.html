@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form lấy survey khách hàng</title>
+</head>
+<body>
+    <h2>Market Research Survey</h2>
+    <p style="border-bottom: 1px dotted #ccc; padding-bottom: 20px">Please take a few moments to complete this satisfaction survey.</p>
+    <form action="">
+        <p><label for="age-range"><b>What is your age range?</b></label></p>
+        <select style="width:50%" name="age-range" id="age-range">
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-50">35-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <br>
+        <!-- ================================ -->
+        <p><label for="income-range"><b>What is your yearly income range?</b></label></p>
+        <select style="width:50%" name="income-range" id="income-range">
+            <option value="$0 - $25,000">$0 - $25,000</option>
+            <option value="$25,001 - $50,000">$25,001 - $50,000</option>
+            <option value="$50,001 - $100,000">$50,001 - $100,000</option>
+            <option value="$100,000+">$100,000+</option>
+        </select> 
+        <!-- ================================ -->
+        <p><label for=""><b>Gender Identity</b></label></p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label><br>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" name="gender" id="nonbinary">
+        <label for="nonbinary">Nonbinary</label><br>
+
+        <input type="radio" name="gender" id="other">
+        <label for="other">Other</label><br>
+        <input style="margin-left: 25px" type="text" maxlength="250">
+        <!-- ================================ -->
+
+        <p><label for=""><b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b></label></p>
+        <input type="checkbox" name="pd1" id="pd1">
+        <label for="pd1">Product 1</label><br>
+
+        <input type="checkbox" name="pd2" id="pd2">
+        <label for="pd2">Product 2</label><br>
+
+        <input type="checkbox" name="pd3" id="pd3">
+        <label for="pd3">Product 3</label><br>
+        <!-- ================================ -->
+
+        <p><label for=""><b>How often would you use our new product?</b></label></p>
+        <input type="radio" name="tm" id="daily">
+        <label for="daily">Daily</label><br>
+
+        <input type="radio" name="tm" id="weekly">
+        <label for="weekly">Weekly</label><br>
+
+        <input type="radio" name="tm" id="monthly">
+        <label for="monthly">Monthly</label><br>
+        <!-- ================================ -->
+
+        <p><label for=""><b>What would you pay for the new product?</b></label></p>
+        <table>
+            <tr>
+                <td>$</td>
+                <td><input style="width: 80px" id=""type="number"></td>
+                <td>.</td>
+                <td><input style="width: 40px"  type="number"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><sup>Dollars</sup></td>
+                <td></td>
+                <td><sup>Cents</sup></td>
+            </tr>
+        </table>
+
+
+
+
+    </form>
+
+</body>
+</html>
