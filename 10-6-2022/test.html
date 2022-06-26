@@ -6,22 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-.clearfix {
-  border: 3px solid #4CAF50;
-  padding: 5px;
-}
-/* .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
-.clear{
-    clear: right;
-    display: table;
-}
-.img2 {
-  float: right;
-}
+      .clearfix {
+        border: 3px solid #4CAF50;
+        padding: 5px;
+      }
+      /* .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+      } */
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      .clear{
+        clear: right;
+        display: table;
+      }
+      .img2 {
+        float: right;
+      }
+      #left {
+        width: 50%;
+        background: lightblue;
+        display: inline-block;
+    }
+      #right {
+          width: 50%;
+          background: orange;
+          display: inline-block;
+      }
+
     </style>
 </head>
 <body>
@@ -31,5 +46,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...</p>
     </div>
     <div class="clear">This is clear</div>
+    <div id="left">Left</div>
+    <div id="right">Right</div>
 </body>
 </html>
