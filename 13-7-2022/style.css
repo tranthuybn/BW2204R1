@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url("/z3564397146105_5e98a2e1841c43a85f9df29b64f22cfc.jpg") center center/cover no-repeat;
+}
+body .container-fluid {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+body .primary-color {
+  color: #fff;
+}
+body .secondary-color {
+  color: #F8B547;
+}
+body .secondary-border {
+  border: 2px solid #F8B547;
+}
+body .btn-register:hover {
+  color: #F8B547;
+  background-color: rgba(0, 0, 0, 0);
+}/*# sourceMappingURL=style.css.map */

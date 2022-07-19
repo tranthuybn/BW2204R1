@@ -1,0 +1,30 @@
+$primary-color: #fff;
+$secondary-color: #F8B547;
+html, body{
+    height: 100%;
+    width: 100%;
+}
+@mixin hover-effect($background-color, $color){
+    color: $color;
+    background-color: $background-color;
+
+}
+body { 
+    background: url('/z3564397146105_5e98a2e1841c43a85f9df29b64f22cfc.jpg') center center / cover no-repeat;
+    .container-fluid{
+        background-color: rgba($color: #0000, $alpha: .5);
+    }
+    filter: brightness(50%);
+    .primary-color{
+        color: $primary-color;
+    }
+    .secondary-color{
+        color: $secondary-color;
+    }
+    .secondary-border{
+        border: 2px solid $secondary-color;
+    }
+    .btn-register:hover {
+        @include hover-effect(rgba($color: #0000, $alpha: 0), $secondary-color)
+    }
+}

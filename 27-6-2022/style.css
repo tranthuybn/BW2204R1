@@ -1,0 +1,22 @@
+.po-relative {
+    position: relative;
+    flex: 1;
+}
+.nav-link{
+    color: #fff;
+}
+.navbar> .container-fluid {
+    justify-content: center;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.nav-link:focus, .nav-link:hover {
+    transform: translateY(2px);
+    color: #fff;
+}
+.btn-search{
+    color:#ccc;
+    position: absolute;
+    right: 8px;
+}

@@ -1,0 +1,30 @@
+$small : 576px;
+$medium: 768px;
+body,html {
+    width: 100%;
+    height: 100%;
+}
+@mixin layout($color, $size : 14px){
+    color: $color;
+    background-color: invert($color);
+    @debug color.invert(#550e0c, 20%);
+    font-size: $size;
+    margin: $size;
+    padding: $size;
+    line-height: calc($size * 1.5);
+    border: 5px solid $color;
+
+}
+#container {
+    @include layout(darkgreen,$size : 20px)
+}
+@media screen and (max-width: $medium) {
+    #container {
+        @include layout(darkblue,$size : 16px)
+    }
+}
+@media screen and (max-width: $small) {
+    #container {
+        @include layout(darkred ,$size : 14px)
+    }
+}
