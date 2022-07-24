@@ -14,8 +14,8 @@
 <body>
   <!-- ===========Navigation=========== -->
     <nav class="navbar navbar-expand-lg primary-bg main-nav">
-        <div class="container">
-          <a class="navbar-brand me-1" href="#">
+        <div class="container p-0">
+          <a class="navbar-brand me-1" href="/main.html">
             <img src="/img/logo/logo-main.png" alt="logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,13 +49,13 @@
                 </button>
               </form>
               <li class="nav-item mx-1">
-                <a class="nav-link p-1 d-flex align-items-center" href="#">
+                <a class="nav-link p-1 d-flex align-items-center" href="tel:18002097">
                   <i class="ti-mobile box-icon"></i>
                   <span class="box-content"><span>Gọi mua hàng<br>1800 2097</span></span>
                 </a>
               </li>
               <li class="nav-item mx-1">
-                <a class="nav-link p-1 d-flex align-items-center" href="#">
+                <a class="nav-link p-1 d-flex align-items-center" href="/map-store.html">
                   <i class="ti-location-pin box-icon"></i>
                   <span class="box-content"><span>Cửa hàng <br>gần bạn</span></span>
                 </a>
@@ -82,12 +82,16 @@
           </div>
         </div>
     </nav>
+
+
+
+
   <!-- ===========Slide=========== -->
-    <div class="container h-100 main-slide">
-      <div class="row h-100">
+    <div class="container main-slide mt">
+      <div class="row">
         <!-- ===========Menu in Slide=========== -->
-        <div class="col-lg-2 h-100 main-menu p-0">
-          <ul class="dropdown-menu show p-0">
+        <div class="col-lg-2 main-menu p-0">
+          <ul class="dropdown-menu p-0">
             <li><a class="dropdown-item d-flex align-items-center py-1 px-2" href="#">
               <img src="/img/icon/icon-cps-3.svg" alt="">
               <span>Điện thoại</span>
@@ -151,44 +155,1183 @@
           </ul>
         </div>
         <!-- ===========Banner in Slide=========== -->
-        <div class="col-lg-7 h-100 px-1">
-          <div id="carouselExampleIndicators" class="carousel slide main-carousel" data-bs-ride="true">
+        <div class="col-lg-7">
+          <div id="carouselProduct" class="carousel slide main-carousel product-carousel" data-bs-interval="3000" data-bs-ride="true">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <div type="button" data-bs-target="#carouselProduct" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                <span>GALAXY S22 SERIES <br>Ưu đãi đến 9 triệu</span>
+              </div>
+              <div type="button" data-bs-target="#carouselProduct" data-bs-slide-to="1" aria-label="Slide 2">
+                <span>POCO X4 GT <br>Cấu hình mạnh mẽ</span>
+              </div>
+              <div type="button" data-bs-target="#carouselProduct" data-bs-slide-to="2" aria-label="Slide 3">
+                <span>MACBOOK AIR M2 <br>Ưu đãi đến 5 triệu</span>
+              </div>
+              <div type="button" data-bs-target="#carouselProduct" data-bs-slide-to="3" aria-label="Slide 4">
+                <span>AMAZFIT BIP 3 PRO <br>Mở bán quà chất</span>
+              </div>
+              <div type="button" data-bs-target="#carouselProduct" data-bs-slide-to="4" aria-label="Slide 5">
+                <span>TIVI XIAOMI 4K P1 <br>Ưu đãi đến 9 triệu</span>
+              </div>
+              <div type="button" data-bs-target="#carouselProduct" data-bs-slide-to="5" aria-label="Slide 6">
+                <span>ASUS ZENBOOK <br>Mỏng nhẹ sang trọng</span>
+              </div>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="">
+                <a href="#">
                   <img src="/img/banner/z3578226790168_253302ab255516ddf83ef3d98f6ad01e.jpg" class="d-block w-100" alt="banner-1">
                 </a>
               </div>
               <div class="carousel-item">
-                <a href="">
+                <a href="#">
                   <img src="/img/banner/z3578226811415_30e900a5b72cc874738080ada5c70ecd.jpg" class="d-block w-100" alt="banner-2">
                 </a>
               </div>
               <div class="carousel-item">
-                <a href="">
+                <a href="#">
                   <img src="/img/banner/z3578226811710_885c5157e68ab109b13d9f07d4e2eb70.jpg" class="d-block w-100" alt="banner-3">
                 </a>
               </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/banner/z3580490761423_58a3874392b06749762a8534bf3e2792.jpg" class="d-block w-100" alt="banner-4">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/banner/z3580490767848_c6ef375b80b826a71f94f2582a1d4fa5.jpg" class="d-block w-100" alt="banner-5">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="#">
+                  <img src="/img/banner/z3580490767860_23f7792ef06aed1a6461516cb56faacd.jpg" class="d-block w-100" alt="banner-6">
+                </a>
+              </div>
+              <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselProduct" data-bs-slide="prev">
+                <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselProduct" data-bs-slide="next">
+                <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-              <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-              <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
-        <div class="col-lg-3 h-100" style="background-color: red"></div>
+        <!-- ===========Banner mini in Slide=========== -->
+        <div class="col-lg-3">
+          <div class="container d-flex justify-content-between flex-column main-banner">
+            <img src="/img/banner/z3584296033351_17f55a17f0d066b329e33c90a51ef658.jpg" alt="">
+            <img src="/img/banner/z3584296038280_dbe9fcf77c1fac9b097b00d8bf169684.jpg" alt="">
+            <img src="/img/banner/z3584296060430_6fc975425e42e567136606ae5114c9d5.jpg" alt="">
+          </div>
+        </div>
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+  <!-- ===========Hotsale list=========== -->
+  <div class="container hotsale-container p-1">
+    <div class="box-title hotsale-header">
+      <div class="hotsale-menu">
+        <button class="btn">Điện thoại, Laptop, TV</button>
+        <button class="btn">Phụ kiện</button>
+      </div>
+      <div>
+        <img src="/img/svgexport-13.svg" alt="">
+      </div>
+      <ul class="box-time d-flex m-0">
+        <li class="me-2">Bắt đầu sau: </li>
+        <li>
+          <p class="time">00</p>
+          <p class="separate">:</p>
+        </li>
+        <li>
+          <p class="time">02</p>
+          <p class="separate">:</p>
+        </li>
+        <li>
+          <p class="time">09</p>
+          <p class="separate">:</p>
+        </li>
+        <li>
+          <p class="time">14</p>
+        </li>
+      </ul>
+    </div>
+    <div class="product-carousel carousel slide" id="carouselExampleIndicators" data-bs-interval="3000" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="product-list hotsale-product-list carousel-item active">
+          <div class="row row-cols-1 row-cols-md-5 g-4">
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg" class="card-img-top" alt="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.850.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.690.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731366523_71a655efeaa59cdce7775ca81fa7290c.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A8 (2022)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">6.990.000&nbsp;₫</p>
+                    <p class="pro-price--through">8.490.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Tặng Bao da Samsung Galaxy Tab A8 2022 chính hãng và <b>1 km</b> khác</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731383464_549aec710e0111b4f7d6f28342d74759.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A7 Lite</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.750.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.490.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425711_260f54e3c3caac3c8ac942febcfef703.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy A53 (5G)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">8.490.000&nbsp;₫</p>
+                    <p class="pro-price--through">9.990.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <div class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425782_62d6a19394a58b76b6629661f5898de8.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11S</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">5.700.000&nbsp;₫</p>
+                    <p class="pro-price--through">6.690.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Giảm thêm 4.000.000đ khi thu cũ đổi mới</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="product-list hotsale-product-list carousel-item">
+          <div class="row row-cols-1 row-cols-md-5 g-4">
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3585779217886_2055f2e407d03dbc1c00d9096268120b.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11 Pro</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.850.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.690.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3585779223066_7c3c1f3b1ccbcfcccfad3b98378f1b15.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi 12</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">6.990.000&nbsp;₫</p>
+                    <p class="pro-price--through">8.490.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Tặng Bao da Samsung Galaxy Tab A8 2022 chính hãng và <b>1 km</b> khác</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3585779238866_0168878858910e6440ce700ade35328e.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A7 Lite</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.750.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.490.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3585779251558_1e2fd30fce38e6077073a585d908d65d.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy A53 (5G)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">8.490.000&nbsp;₫</p>
+                    <p class="pro-price--through">9.990.000&nbsp;₫</p>
+                  </div>
+                  <!-- <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p> -->
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </a>
+            <div class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3585779251562_2957012d8c1b955dcccc9e739f2eb674.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi 10 (4GB - 128GB)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">5.700.000&nbsp;₫</p>
+                    <p class="pro-price--through">6.690.000&nbsp;₫</p>
+                  </div>
+                  <p class="card-text">Ưu đãi Galaxy gift lên đến 1.700.000đ (VieON VIP HBO GO, Zing MP3, Phúc Long, Galaxy Play)</p>
+                </div>
+                <div class="product__price--percent">
+                  <img src="/img/Asset-1-1.png" alt="">
+                  <span>Giảm 18%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+
+  <!-- ===========Product list=========== -->
+  <div class="container p-1">
+    <div class="product-list-title d-flex align-items-center justify-content-between">
+      <h2><a href="#">Điện thoại nổi bật nhất</a></h2>
+      <div class="list-related-tag">
+        <a href="#" class="related-tag">Apple</a>
+        <a href="#" class="related-tag">Samsung</a>
+        <a href="#" class="related-tag">Xiaomi</a>
+        <a href="#" class="related-tag">OPPO</a>
+        <a href="#" class="related-tag">realme</a>
+        <a href="#" class="related-tag">Nokia</a>
+        <a href="#" class="related-tag">ASUS</a>
+        <a href="#" class="related-tag">Tecno</a>
+        <a href="#" class="related-tag">vivo</a> 
+        <a href="https://cellphones.com.vn/mobile.html" class="related-tag">Xem tất cả</a>
+      </div>
+    </div>
+    <div class="product-carousel carousel slide product-list-line-1" id="phoneProductList" data-bs-interval="3000" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="product-list  carousel-item active">
+          <div class="row row-cols-1 row-cols-md-5 mb-2 g-4">
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg" class="card-img-top" alt="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.850.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px;" src="/img/svgexport-15.png" class="gray-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731366523_71a655efeaa59cdce7775ca81fa7290c.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A8 (2022)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">6.990.000&nbsp;₫</p>
+                    <p class="pro-price--through">8.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>14 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731383464_549aec710e0111b4f7d6f28342d74759.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A7 Lite</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.750.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px;" src="/img/svgexport-15.png" class="gray-star" alt="">
+                    <img style="width: 12px;" src="/img/svgexport-15.png" class="gray-star" alt="">
+                    <span>1 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425711_260f54e3c3caac3c8ac942febcfef703.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy A53 (5G)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">8.490.000&nbsp;₫</p>
+                    <p class="pro-price--through">9.990.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425782_62d6a19394a58b76b6629661f5898de8.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11S</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">5.700.000&nbsp;₫</p>
+                    <p class="pro-price--through">6.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Giảm thêm 4.000.000đ khi thu cũ đổi mới</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row row-cols-1 row-cols-md-5 mb-2 g-4">
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg" class="card-img-top" alt="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.850.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731366523_71a655efeaa59cdce7775ca81fa7290c.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A8 (2022)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">6.990.000&nbsp;₫</p>
+                    <p class="pro-price--through">8.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>14 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731383464_549aec710e0111b4f7d6f28342d74759.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A7 Lite</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.750.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>1 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425711_260f54e3c3caac3c8ac942febcfef703.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy A53 (5G)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">8.490.000&nbsp;₫</p>
+                    <p class="pro-price--through">9.990.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425782_62d6a19394a58b76b6629661f5898de8.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11S</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">5.700.000&nbsp;₫</p>
+                    <p class="pro-price--through">6.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Giảm thêm 4.000.000đ khi thu cũ đổi mới</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div> 
+        <div class="product-list  carousel-item">
+          <div class="row row-cols-1 row-cols-md-5 mb-2 g-4">
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg" class="card-img-top" alt="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.850.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731366523_71a655efeaa59cdce7775ca81fa7290c.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A8 (2022)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">6.990.000&nbsp;₫</p>
+                    <p class="pro-price--through">8.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>14 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731383464_549aec710e0111b4f7d6f28342d74759.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A7 Lite</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.750.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>1 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425711_260f54e3c3caac3c8ac942febcfef703.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy A53 (5G)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">8.490.000&nbsp;₫</p>
+                    <p class="pro-price--through">9.990.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425782_62d6a19394a58b76b6629661f5898de8.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11S</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">5.700.000&nbsp;₫</p>
+                    <p class="pro-price--through">6.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Giảm thêm 4.000.000đ khi thu cũ đổi mới</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="row row-cols-1 row-cols-md-5 mb-2 g-4">
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg" class="card-img-top" alt="/img/hotsale-product/z3584731360092_f175b22a005abb022ce731fa0a68d1ef.jpg">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.850.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">[HOT] Thu cũ lên đời giá cao - Thủ tục nhanh - Trợ giá lên tới 1.000.000đ</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731366523_71a655efeaa59cdce7775ca81fa7290c.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A8 (2022)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">6.990.000&nbsp;₫</p>
+                    <p class="pro-price--through">8.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>14 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731383464_549aec710e0111b4f7d6f28342d74759.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy Tab A7 Lite</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">3.750.000&nbsp;₫</p>
+                    <p class="pro-price--through">4.490.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ lên đời - Trợ giá 1 triệu</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>1 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425711_260f54e3c3caac3c8ac942febcfef703.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Samsung Galaxy A53 (5G)</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">8.490.000&nbsp;₫</p>
+                    <p class="pro-price--through">9.990.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Thu cũ đổi mới - Trợ giá đến 300.000đ</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="/product.html" class="col">
+              <div class="card p-2">
+                <div class="card-img-wrap">
+                  <img src="/img/hotsale-product/z3584731425782_62d6a19394a58b76b6629661f5898de8.jpg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body p-0">
+                  <h5 class="card-title">Xiaomi Redmi Note 11S</h5>
+                  <div class="box-price">
+                    <p class="pro-price--show">5.700.000&nbsp;₫</p>
+                    <p class="pro-price--through">6.690.000&nbsp;₫</p>
+                  </div>
+                  <div class="card-text-wrap">
+                    <p class="card-text">Giảm thêm 4.000.000đ khi thu cũ đổi mới</p>
+                  </div>
+                  <div class="product__box-rating">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <img style="width: 12px" src="/img/star--yellow.png" class="yellow-star" alt="">
+                    <span>71 đánh giá</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div> 
+      </div>
+      <button class="carousel-control carousel-control-prev" type="button" data-bs-target="#phoneProductList" data-bs-slide="prev">
+        <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control carousel-control-next" type="button" data-bs-target="#phoneProductList" data-bs-slide="next">
+        <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+  <div class="container menu-footer">
+    <div class="product-list-title d-flex align-items-center justify-content-between">
+      <h2 class="m-0"><a href="#">LINH KIỆN MÁY TÍNH</a></h2>
+      <div class="list-related-tag">
+        <a href="https://cellphones.com.vn/mobile.html" class="related-tag">Xem tất cả</a>
+      </div>
+    </div>
+    <div class="row row-cols-10 menu-footer-list">
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>PC ráp sẵn CellphoneS</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>CPU</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Mainboard</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>RAM</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Card màn hình</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Nguồn máy tính</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Tản nhiệt</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Case máy tính</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>PC ráp sẵn CellphoneS</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>PC ráp sẵn CellphoneS</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-list-title d-flex align-items-center justify-content-between">
+      <h2 class="m-0"><a href="#">HÀNG CŨ</a></h2>
+      <div class="list-related-tag">
+        <a href="https://cellphones.com.vn/mobile.html" class="related-tag">Xem tất cả</a>
+      </div>
+    </div>
+    <div class="row row-cols-10 menu-footer-list">
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Điện thoại cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>CPU</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Máy tính bảng cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Mac cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Laptop cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Loa, tai nghe cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Đồng hồ thông minh cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Nhà thông minh cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Phụ kiện cũ</span>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-item">
+          <a href=""></a>
+          <span>Màn hình cũ</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="product-list-title d-flex align-items-center justify-content-between">
+      <h2 class="m-0"><a href="#">ƯU ĐIỂM THANH TOÁN</a></h2>
+    </div>
+    <div class="row row-cols-4 menu-footer-list">
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/uu-dai-thanh-toan-sacom0991764.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/uu-dai-thanh-toan-kredivo.webp" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/VNPAY.webp" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/evo.webp" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-list-title d-flex align-items-center justify-content-between">
+      <h2 class="m-0"><a href="#">CHUYÊN TRANG THƯƠNG HIỆU</a></h2>
+    </div>
+    <div class="row row-cols-4 menu-footer-list">
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/apple.webp" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/xiaomi.webp" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/samsung.webp" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="menu-footer-banner">
+          <a href="">
+            <img src="/img/menu-footer/SIS asus.webp" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- ===========Footer=========== -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row row-cols-4">
+          <div class="col">
+            <div>
+              <h4 class="title">Tìm cửa hàng</h4>
+              <ul class="footer-list flex-column">
+                <li><a href="#">Tìm cửa hàng gần nhất</a></li>
+                <li><a href="#">Mua hàng từ xa</a></li>
+                <li><a href="#">Gặp trực tiếp cửa hàng gần nhất(Zalo hoặc gọi điện)</a></li>
+              </ul>
+            </div>
+  
+            <div>
+              <h4 class="title"t>Phương thức thanh toán</h4>
+              <ul class="footer-list">
+                <li><a href="#"><img src="/img/payment-method/z3588291531547_1250ff22c12560b6544bf023e0fee89c.jpg"  alt=""></a></li>
+                <li><a href="#"><img src="/img/payment-method/z3588291531607_f0494b26f728f41916fc9efd20639da8.jpg" alt=""></a></li>
+                <li><a href="#"><img src="/img/payment-method/z3588291532258_2f48adc3b7d8466bcc49e28362635ecf.jpg" alt=""></a></li>
+                <li><a href="#"><img src="/img/payment-method/z3588291537802_9d41140d152f5e3db9c14b00a543ee7b.jpg" alt=""></a></li>
+                <li><a href="#"><img src="/img/payment-method/z3588291541201_19b79303f290a77b46bf413f2f7f61c8.jpg" alt=""></a></li>
+                <li><a href="#"><img src="/img/payment-method/z3588291552953_52efd752877f9b55a2b365426a50c827.jpg" alt=""></a></li>
+                <li><a href="#"><img src="/img/payment-method/z3588291563880_2420310e094bd3fcc334f7d0a507ed74.jpg" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <ul class="footer-list flex-column">
+                <li>Gọi mua hàng <a href="tel:18002097"><b>1800.2097</b></a> (8h00 - 22h00)</li>          
+                <li>Gọi bảo hành <a href="tel:18002064"><b>1800.2064</b></a> (8h00 - 21h00)</li>
+                <li>Gọi khiếu nại <a href="tel:18002063"><b>1800.2063</b></a> (8h00 - 21h30)</li>
+              </ul>
+            </div>
+            <div>
+              <div class="box-warranty primary-bg">
+                <div class="box-left">
+                  <p>Đối tác dịch vụ bảo hành</p>
+                  <p>Điện thoại - máy tính</p>
+                </div>
+                <div class="box-right">
+                  <img src="/img/icon/svgexport-17.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="box-warranty">
+                <div class="box-left">
+                  <p>Trung tâm bảo hành ủy quyền Apple</p>
+                </div>
+                <div class="box-right">
+                  <img src="/img/icon/logo_dtv-asp.webp" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <ul class="footer-list flex-column">
+                <li><a href="#">Mua hàng và thanh toán Online</a></li>
+                <li><a href="#">Mua hàng trả góp Online</a></li>
+                <li><a href="#">Tra thông tin đơn hàng</a></li>
+                <li><a href="#">Tra điểm Smember</a></li>
+                <li><a href="#">Tra thông tin bảo hành</a></li>
+                <li><a href="#">Tra cứu hóa đơn điện tử</a></li>
+                <li><a href="#">Trung tâm bảo hành chính hãng</a></li>
+                <li><a href="#">Quy định về việc sao lưu dữ liệu</a></li>
+                <li><a href="#">Dịch vụ bảo hành điện thoạ<img src="" alt="" sizes="" srcset=""></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <ul class="footer-list flex-column">
+                <li><a href="#">Khách hàng doanh nghiệp(B2B)</a></li>
+                <li><a href="#">Ưu đãi thanh toán</a></li>
+                <li><a href="#">Quy chế hoạt động</a></li>
+                <li><a href="#">Chính sách bảo hành</a></li>
+                <li><a href="#">Liên hệ hợp tác kinh doanh</a></li>
+                <li><a href="#">Tuyển dụng</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row row-cols-4">
+          <div class="col">
+            <ul class="footer-list">
+              <li><a href="#">Điện thoại iphone</a></li>
+              <li><a href="#">Điện thoại iphone 13 - Điện thoại iPhone 13 Pro Max</a></li>
+              <li><a href="#">Điện thoại iphone 12 - Điện thoại iPhone 11</a></li>
+              <li><a href="#">iPhone cũ giá rẻ - iPhone 13 cũ - iPhone 12 cũ</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="footer-list">
+              <li><a href="#">Điện thoại iphone</a></li>
+              <li><a href="#">Điện thoại iphone 13 - Điện thoại iPhone 13 Pro Max</a></li>
+              <li><a href="#">Điện thoại iphone 12 - Điện thoại iPhone 11</a></li>
+              <li><a href="#">iPhone cũ giá rẻ - iPhone 13 cũ - iPhone 12 cũ</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="footer-list">
+              <li><a href="#">Điện thoại iphone</a></li>
+              <li><a href="#">Điện thoại iphone 13 - Điện thoại iPhone 13 Pro Max</a></li>
+              <li><a href="#">Điện thoại iphone 12 - Điện thoại iPhone 11</a></li>
+              <li><a href="#">iPhone cũ giá rẻ - iPhone 13 cũ - iPhone 12 cũ</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="footer-list">
+              <li><a href="#">Điện thoại iphone</a></li>
+              <li><a href="#">Điện thoại iphone 13 - Điện thoại iPhone 13 Pro Max</a></li>
+              <li><a href="#">Điện thoại iphone 12 - Điện thoại iPhone 11</a></li>
+              <li><a href="#">iPhone cũ giá rẻ - iPhone 13 cũ - iPhone 12 cũ</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="author">Made by Trần Thị Thúy - BW2204R1 case study cuối khóa HTML/CSS CodeGym online. Hotline liên hệ 0355016822. Địa chỉ S201 Vinhome Ocean Park - xã Đa Tốn - huyện Gia Lâm - Thành phố Hà Nội - Việt Nam</p>
+        <div class="d-flex justify-content-center align-items-center certification">
+          <img src="/img/icon/logoSaleNoti.webp" alt="">
+          <img src="/img/icon/dmca_copyright_protected150c.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
