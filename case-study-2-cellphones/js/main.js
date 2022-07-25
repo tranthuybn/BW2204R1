@@ -2,7 +2,6 @@
 const hMainCarousel = document.querySelector('.main-carousel').clientHeight
 const wMainCarousel = document.querySelector('.main-carousel').clientWidth
 const hCarouselInner = document.querySelector('.main-carousel .carousel-inner').clientHeight
-const carouselIndi = document.querySelector('.main-carousel .carousel-indicators')
 const btnControls = document.querySelectorAll('.main-carousel .carousel-control')
 const btnCarouselIndis = document.querySelectorAll('.main-carousel .carousel-indicators div')
 const textCarouselIndis = document.querySelectorAll('.main-carousel .carousel-indicators span')
@@ -10,9 +9,6 @@ const menuFooterItems = document.querySelectorAll('.menu-footer-item')
 textCarouselIndis.forEach(function(textCarouselIndi){
     textCarouselIndi.style.width = wMainCarousel / 5 + 'px'
 })
-carouselIndi.style.height = hMainCarousel - hCarouselInner + 'px'
-
-
 // Main-carousel-btn-click-carouselIndicator-into-view
 btnCarouselIndis.forEach(function(btnCarouselIndi){
     btnCarouselIndi.addEventListener('click', scrollToView)
