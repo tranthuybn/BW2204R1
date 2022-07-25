@@ -29,17 +29,16 @@ function scrollToView(){
 }
 
 // Set backgroud-color menu-footer-item
-let colorList = ['#ffa3a3', '#ffb8b8','#ff94eb', '#e0b3ff','#c6d8fb','#85ffb1','#f5d63d', '#fda363','#ff6666']
+let colorList = ['#ffa3a3', '#ffb8b8','#ff94eb', '#e0b3ff','#c6d8fb','#85ffb1','#f5d63d', '#fda363','#ff6666','#96fdb5']
 menuFooterItems.forEach(function(menuFooterItem){
-    // for(var i = 0; i < colorList.length; i++){
+    menuFooterItem.style.backgroundColor = colorList.shift()
 
+    // const hex = 'abcdef0123456789'
+    // let color = '#'
+    // for(var i = 0; i < 6; i++){
+    //     color += hex[Math.floor(Math.random()*16)]
     // }
-    const hex = 'abcdef0123456789'
-    let color = '#'
-    for(var i = 0; i < 6; i++){
-        color += hex[Math.floor(Math.random()*16)]
-    }
-    menuFooterItem.style.backgroundColor = color
+    // menuFooterItem.style.backgroundColor = color
 })
 
 // Css actice btn box-choice
