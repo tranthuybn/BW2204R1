@@ -150,7 +150,6 @@ ul {
 .box-select {
   position: relative;
   text-align: left;
-  height: 40px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 15px;
@@ -822,13 +821,16 @@ footer .box-warranty .box-right {
   font-weight: 500;
 }
 .box-slide .box-slide-carousel .carousel-indicators {
+  justify-content: center;
   bottom: -40px;
+  height: unset;
 }
 .box-slide .box-slide-carousel .carousel-indicators button[data-bs-target*="#boxSlide"] {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 100%;
   width: 8px;
   height: 8px;
+  margin-right: 4px;
 }
 .box-slide .box-slide-carousel .carousel-indicators button[data-bs-target*="#boxSlide"].active {
   background-color: #d70018;
@@ -1172,4 +1174,8 @@ footer .box-warranty .box-right {
   height: 36px;
   border: 1px solid #e5e7eb;
   font-size: 14px;
+}
+.box-product-info .box-on-stock-stores .box-on-stock-stores__count {
+  font-size: 14px;
+  margin-bottom: 5px;
 }/*# sourceMappingURL=style.css.map */
